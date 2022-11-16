@@ -1,0 +1,13 @@
+prefix=/home/mateus/miniconda3/envs/ETL_LUIGI
+exec_prefix=/home/mateus/miniconda3/envs/ETL_LUIGI
+libdir=/home/mateus/miniconda3/envs/ETL_LUIGI/lib
+sharedlibdir=/home/mateus/miniconda3/envs/ETL_LUIGI/lib
+includedir=/home/mateus/miniconda3/envs/ETL_LUIGI/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

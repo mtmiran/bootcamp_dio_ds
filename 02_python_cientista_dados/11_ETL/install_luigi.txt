@@ -1,0 +1,12 @@
+# instalação luigi
+
+$ conta activate
+$ conda create --name ETL_LUIGI
+$ conda activate ETL_LUIGI
+$ which python
+$ conta install python=3.7
+$ pip3 install luigi
+$ luigid # vai abrir no browser
+
+## agora basta entrar no browser e colocar:
+	localhost:8082
